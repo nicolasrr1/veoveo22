@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Homemade+Apple&family=Inconsolata:wght@700&family=Montserrat:wght@500;600;700&family=Nunito:wght@200&family=PT+Sans+Narrow&family=Raleway:wght@300;400&family=Roboto:wght@300&family=Space+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+}
+
+@media screen and (max-width: 1341px) {
+  .fomentamosAcciones {
+    font-size: 49px;
+  }
+  .textHeader {
+    margin-top: -36%;
+  }
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: row wrap;
+}
+
+/* header */
+
+.contedorHeader {
+  width: 100%;
+}
+.imgPresentacion {
+  width: 100%;
+  height: 800px;
+  /* position: absolute; */
+  /* display: flex; */
+}
+.parte1 {
+  width: 100%;
+  height: 100%;
+}
+.textHeader {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: -20%;
+}
+
+.seccion2 {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+}
+
+.seccion1 {
+  margin-top: 18%;
+  margin-left: 8%;
+  position: absolute;
+  margin-top: -21%;
+}
+
+.seccion1 h1 {
+  color: white;
+  font-size: 160px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.porNatural {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  font-family: "Homemade Apple", cursive;
+}
+
+.fomentamosAcciones {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  color: white;
+  justify-content: center;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+.fomentamosColor {
+  background-color: rgba(255, 77, 0, 0.922);
+}
+.porNatural {
+  margin-left: 40%;
+}
+
+/* logos */
+
+.logo {
+  height: 231px;
+  width: 231px;
+}
+.losgos {
+  position: relative;
+  display: flex;
+}
+/*end header */
+
+/* nav */
+
+.nav {
+  background-color: #606c38;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: -10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.navul {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: 7%;
+}
+
+.navul li {
+  margin-left: 5%;
+  height: 60px;
+  width: 200px;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+}
+.navul li a {
+  text-align: center;
+  color: white;
+}
+.tex1 {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.navlogo {
+  height: 145px;
+  width: 145px;
+  margin-top: -15px;
+}
+/* end nav */
+
+h2 {
+  color: rgba(255, 77, 0, 0.922);
+  margin: 0 auto;
+  margin-left: 45%;
+  margin-top: 3%;
+}
+
+.cartext {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  width: 10%;
+  height: 10%;
+}
+
+.numero {
+  font-size: 170px;
+  color: rgba(255, 77, 0, 0.42);
+  justify-content: space-around;
+}
+.cartext {
+  position: absolute;
+  margin-top: 4%;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: bold;
+  margin-left: -2%;
+  font-weight: bold;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+.cartext p {
+  color: black;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+.cartcoten {
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+  margin-left: 12%;
+  font-weight: bold;
+}
+.mesaje {
+  height: 90px;
+}
+.mensajeConten {
+  width: 79%;
+  height: 60px;
+  background-color: #f0ead2;
+  margin-left: 10%;
+  margin-top: 9%;
+}
+
+.mensajeConten p {
+  text-align: center;
+}
+
+/* cartaContainer */
+.AYUDAMOS {
+  background-image: url("../img/FOTO\ FONDO\ COMO\ AYUDAMOS.jpg");
+}
+.container {
+  width: 100%;
+  height: 93%;
+  background: rgba(255, 255, 255, 0.386);
+  position: absolute;
+}
+.carta {
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-between;
+}
+.cartaContainer {
+  background-color: #c4d58c75;
+  width: 23%;
+  height: 450px;
+  margin-top: 7%;
+  justify-content: center;
+}
+.cartaContainer img {
+  width: 85%;
+  height: 220px;
+  margin-top: -10%;
+  margin-left: 7.5%;
+}
+.titulo {
+  justify-content: center;
+  margin-left: -55%;
+}
+.titulo h2 {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: white;
+}
+
+.texto {
+  justify-content: center;
+  width: 90%;
+  margin-left: 5%;
+}
+.texto p {
+  color: white;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  text-align: justify;
+  font-size: 19px;
+  font-weight: bold;
+}
+.texto P span {
+  /* font-family: "Homemade Apple", cursive; */
+  font-size: 20px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  color: white;
+}
+
+/*End cartaContainer */
+
+/*  PROYECTOS */
+.presentationProyect {
+  width: 100%;
+  justify-content: center;
+  margin-top: 3%;
+  display: flex;
+  flex-wrap: row wrap;
+}
+
+.presentationProyect .carta {
+  width: 19%;
+  height: 450px;
+  margin-top: 7%;
+  justify-content: center;
+}
+
+.presentationProyect .carta p {
+  text-align: center;
+}
+.mapa {
+  margin-top: -15%;
+  justify-content: center;
+}
+.mapa iframe {
+  width: 100%;
+}
+/* PROYECTOS */
+
+/* contacto */
+.contacto {
+  background-color: #b8bb6a;
+}
+
+.contactoConten {
+  width: 100%;
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+}
+.contactoConten .imgContacto {
+  width: 80%;
+  height: 500px;
+}
+.contactoForm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.contactoForm .input {
+  margin-top: 3%;
+  width: 560px;
+  border-radius: 12px;
+  height: 30px;
+}
+
+.contactoForm textarea {
+  margin-top: 3%;
+  border-radius: 12px;
+}
+
+.tituloContato {
+  color: rgba(255, 77, 0, 0.922);
+}
+
+.tituloContato h2 {
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-left: -1%;
+}
+
+.form-check-label {
+  color: white;
+}
+
+.btn {
+  margin-top: 15%;
+  background-color: white;
+  color: rgba(255, 77, 0, 0.922);
+  border-radius: 12px;
+  width: 19%;
+  height: 45px;
+}
+
+/* contacto */
+/* galena */
+
+.galena {
+  background-color: rgba(255, 77, 0, 0.922);
+}
+
+.galenaConten {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.galenaConten img {
+  width: 600px;
+  height: 600px;
+}
+.ConttextoGalna {
+  width: 40%;
+  height: 600px;
+  margin-top: 20%;
+}
+.tituloGalena {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  font-family: "Homemade Apple", cursive;
+}
+
+.textgalena p {
+  text-align: justify;
+  color: white;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+}
+
+.aGalena {
+  width: 90px;
+  height: 30px;
+  display: flex;
+  background-color: white;
+  color: rgba(255, 77, 0, 0.922);
+  justify-content: center;
+  margin-top: 2%;
+  margin-left: 80%;
+}
+
+/* galena */
